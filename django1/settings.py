@@ -102,7 +102,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-django_heroku.settings(locals())
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
@@ -130,3 +129,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #used in production environm
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGOUT_REDIRECT_URL ='index'
 
+django_heroku.settings(locals())
