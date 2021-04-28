@@ -8,9 +8,14 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+*.*~
+*.pyc
+.idea
 build/
 develop-eggs/
+/html
 dist/
+/10-a-salvacao-de-programadores-backend-templates/
 downloads/
 eggs/
 .eggs/
